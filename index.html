@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="bgBlue">
+         <h1>Weather App</h1>
+    </header>
+    <main>
+       <div class="sideBar">
+           <button class="getBtn bgBlue">Get Weather</button>
+           <table class="sideTable">
+               <tbody>
+                    <tr class="bgBlue">
+                       <th>City</th>
+                    </tr>
+                    <tr>
+                       <td>London</td>
+                    </tr>
+                    <tr>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                         <td>Las Vegas</td>
+                    </tr>
+               </tbody>
+           </table>
+       </div>
+       <div class="content">
+           <div class="searchDiv">
+               <input class="searchInput" type="text"><button class="searchBtn bgBlue">Search</button>
+           </div>
+           <div class="tableDiv">
+                <table class="mainTable">
+                      <tbody class="tBody">
+                           <tr class="bgBlue">
+                              <td>City</td>
+                              <td>Desription</td>
+                              <td>Temperature(C)</td>
+                              <td>Pressure(hPa)</td>
+                              <td>Data Age(hrs)</td>
+                              <td></td> 
+                           </tr>
+                           <tr class="noData">
+                               <td colspan="6">
+                                   No Data
+                               </td>
+                           </tr>
+                      </tbody>
+                </table>
+           </div>
+       </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
